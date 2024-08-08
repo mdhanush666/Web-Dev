@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+  background-color: teal;
+}
+
+a:visited{
+  color: gold;
+}
+
+a{
+  color: lightblue;
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+
+a:hover,a:focus{
+  color: blue;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+a:active{
+  color: red;
+}

@@ -1,0 +1,14 @@
+Inline CSS:
+
+Inline CSS is the practice of applying styles directly to individual HTML elements using the style attribute within the element's tag. While this method allows for quick and specific styling changes, it is generally considered less efficient and harder to manage compared to external or internal CSS. Inline CSS is often used for quick fixes or temporary styling adjustments.
+
+
+Internal CSS:
+
+Internal CSS involves placing CSS code directly within the HTML document using the \<style> tag in the \<head> section of the page. This method allows for defining styles specific to that particular webpage only, without the need for separate CSS files. It is useful for small-scale styling changes that are limited to a single page.
+
+
+External CSS:
+
+External CSS is a method of styling web pages where the CSS code is stored in a separate file (usually with a .css extension) and linked to the HTML document using the \<link> tag. This allows for the separation of content and design aspects, making it easier to maintain and update styles across multiple pages on a website.
+

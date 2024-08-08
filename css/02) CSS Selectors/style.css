@@ -1,0 +1,31 @@
+*{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+}
+
+body{
+  background-color: beige;
+  font-size: 20px;
+  
+}
+
+p{
+  color: purple;
+}
+
+.gray{
+  color: gray;
+}
+
+h1 , h2{
+  color: blue;
+}
+
+.highlight{
+  background-color: yellow;
+  text-transform: uppercase;
+}
+
+#secondH{
+  color: brown;
+}

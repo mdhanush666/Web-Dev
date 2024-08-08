@@ -1,0 +1,13 @@
+ol{
+  list-style: decimal-leading-zero;
+}
+ul{
+  list-style-position: inside;
+/*   list-style-image: url(icons8_checked_48px.png);
+ */}
+ul ::marker{
+  color: red;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  content: "Only $) ";
+}
