@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+
+  <h1>Form - File Upload</h1>
+
+  <form action="" enctype="multipart/form-data">
+
+    <h2>Job Application Form</h2>
+
+    <p>
+      You Name: <br>
+      <input type="text">
+    </p>
+
+    <p>
+      Your Education: <br>
+      <select name="edu_status">
+        <option value="B.E.">B.E.</option>
+        <option value="B.Tech.">B.Tech.</option>
+        <option value="B.C.A.">B.C.A.</option>
+        <option value="B.S.c.">B.S.c.</option>
+      </select>
+    </p>
+
+    <p>
+      You want to apply for the position <br>
+      <select name="position">
+        <option value="frontend">Front End Developer</option>
+        <option value="backend">Backend Developer</option>
+        <option value="fullstack">Full Stack Developer</option>
+      </select>
+    </p>
+
+    <p>
+      Your Resume: <br>
+      <input type="file" name="resume">      
+    </p>
+
+    <input type="submit" name="btn_sub" value="Submit">
+
+  </form>
+  
+</body>
+</html>
