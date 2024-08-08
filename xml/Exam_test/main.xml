@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "main_s.xsl"?>
+
+<root>
+
+  <movie>
+    <CourseName>NCICT</CourseName>
+    <Duration>6 Month</Duration>
+    <Medium>English</Medium>
+    <Credit>10</Credit>
+  </movie>
+  <movie>
+    <CourseName>NDICT</CourseName>
+    <Duration>1 Year</Duration>
+    <Medium>English</Medium>
+    <Credit>20</Credit>
+  </movie>
+  <movie>
+    <CourseName>NCAT</CourseName>
+    <Duration>2 Year</Duration>
+    <Medium>English</Medium>
+    <Credit>40</Credit>
+  </movie>
+
+</root>

@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone = "no"?>
+<!DOCTYPE movies SYSTEM "sample.dtd">
+<movies>
+  <movie out = "yes">
+    <name lang = "en">Antlers</name>
+    <director>Scot Cooper</director>
+    <release>2021</release>
+  </movie>
+  <movie out = "no">
+    <name lang = "sp">Spider-Man</name>
+    <director>Jon Walter</director>
+    <release>2023</release>
+  </movie>
+
+</movies>

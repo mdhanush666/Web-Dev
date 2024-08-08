@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+
+<students>
+  <student>
+    <name>Dhanush</name>
+    <gender>Male</gender>
+    <age>19</age>
+  </student>
+</students>

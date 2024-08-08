@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<h:table xmlns = "https://www.w3.org/TR/html4/">
+  <h:tr>
+    <h:td>Apples</h:td>
+    <h:td>Bananas</h:td>
+  </h:tr>
+</h:table>
+
+<f:table xmlns = "https://www.w3schools.com/furniture">
+  <f:name>African Coffee Table</f:name>
+  <f:width>80</f:width>
+  <f:length>120</f:length>
+</f:table>
+
+<!-- The use of a prefix (h or f here) clearly separates the two meanings of the tag table.” Tag attribute xmlns (xml name space) identifies each prefix with a unique name. The link is not used by the parser to check the definition. The link may contain information about the namespace -->
+
+
+<!-- Default Namespace
+
+ Using a default namespace in an element avoids the need to repeat the prefix on each child element. -->
+
+
+<table 
+  xmlns = "https://www.w3.org/TR/html4/">
+  <tr>
+    <td>Apples</td>
+    <td>Bananas</td>
+  </tr>
+</table>

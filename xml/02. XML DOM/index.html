@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XML - DOM</title>  
+</head>
+<!-- Convert XML code into a XML DOM object and access elements/data -->
+<body>
+
+  <p id="xml-data"></p>
+
+
+  <script>
+
+    const text = 
+    `<students>
+      <student>
+        <name>Dhanush</name>
+        <age>19</age>
+        <sex>Male</sex>
+      </student>    
+    </students>`
+
+    // Create a parser object
+    const parser = new DOMParser();
+    
+    // Convert XML code into a XML DOM object
+
+    const xmlDoc = parser.parseFromString(text,"text/xml");
+
+    console.log(xmlDoc);
+
+    // Access data/elements from the DOM/XML code
+
+    //console.log(xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue);
+    const getName = xmlDoc.getElementsByTagName("name")[0].childNodes[0].nodeValue;
+
+    document.getElementById("xml-data").innerHTML = getName;
+
+  </script>
+</body>
+</html>

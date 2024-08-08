@@ -1,0 +1,11 @@
+<!ELEMENT movies (movie)*>
+
+<!ATTLIST movie out CDATA "yes">
+
+<!ELEMENT movie (name,director,release)>
+<!ELEMENT name (#PCDATA)>
+
+<!ATTLIST name lang CDATA #FIXED "en">
+
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT release (#PCDATA)>
