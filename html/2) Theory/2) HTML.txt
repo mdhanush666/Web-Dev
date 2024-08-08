@@ -1,0 +1,7 @@
+What is Web Page
+A file which holds the information is web page.
+
+Purpose of creating a webpage
+To Share the information universally in a standard form without any software restrictions.
+
+HTML - HYPER TEXT MARKUP LANGUAGE

@@ -1,0 +1,14 @@
+Opeing Tag
+<p>
+
+Closing Tag
+</p>
+
+				HTML Element
+
+      <p> 		This is a Paragraph 	        </p>
+opening tag			Content 		Closing tag
+
+				Attributes
+
+<h1 id = "primary-heading"> Web on Fire! </h1>

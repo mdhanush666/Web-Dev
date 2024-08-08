@@ -1,0 +1,19 @@
+1.	Structure Layer
+2)	Presentation Layer
+3)	Behaviour Layer
+
+	Structure Layer
+
+>	Represents Content of the Web Page
+>	HTML (Hyper Text Markup Language) is reponsible to this Layer
+
+	Presentation Layer
+
+>	Decides look and feel of the Web Page
+>	CSS (Cascade Style Sheet) is responsible to this layer
+
+	Behaviour Layer
+
+>	Decides reaction for user interaction
+>	JavaScript is responsible to this layer
+
