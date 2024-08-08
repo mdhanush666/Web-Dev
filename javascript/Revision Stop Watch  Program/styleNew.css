@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  height: 250px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 50px;
+  background-color: rgba(240, 248, 255, 0.151);
+  padding: 20px;
+  text-align: center;
+}
+
+.container #head{
+  font-family: 'Poppins' sans-serif;
+  font-weight: 400;
+  font-size: 3.5em;
+}
+
+.container #txt{
+  font-family: 'Poppins' sans-serif;
+  font-size: 2.5em;
+  padding: 20px;
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  transition: background-color .2s ease-in;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#btnStart{
+  background-color: hsl(80, 100%, 50%);
+}
+#btnStart:hover{
+  background-color: hsl(80, 100%, 90%);
+}
+
+#btnStop{
+  background-color: hsl(0, 100%, 60%);
+}
+#btnStop:hover{
+  background-color: hsl(0, 100%, 90%);
+}
+
+#btnReset{
+  background-color: hsl(200, 100%, 50%);
+}
+#btnReset:hover{
+  background-color: hsl(200, 100%, 80%);
+}

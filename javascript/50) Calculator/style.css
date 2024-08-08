@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  max-width: 500px;
+  max-height: 500px;
+  background-color: hsl(0, 0%, 25%);
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.btn-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button{
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.2s ease-in;
+}
+
+#getCal{
+  color: lightgray;
+  text-align: right;
+  padding: 10px;
+}
+
+#display{
+  border: none;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  color: #fff;
+  padding: 10px;
+  text-align: right;
+}
+
+button:hover{
+  background-color: hsl(0, 0%, 10%);
+  font-weight: bold;
+}
+
+button:active{
+  background-color: #ffffff50;
+}
+
+.btn-Operator{
+  background-color: hsl(39, 100%, 40%);
+}
+.btn-Operator:hover{
+  background-color: hsl(39, 100%, 60%);
+}

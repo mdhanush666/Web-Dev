@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BgChange</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    button{
+      border: none;
+      border-radius: 20px;
+      padding: 20px 80px;
+      font-size: 2em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    button:hover{
+      background-color: hsl(0, 0%, 10%);
+      box-shadow: 0 0 5px yellow;
+    }
+  </style>
+</head>
+<body>
+  <button id="btn" onclick="btnClick()">Dark Mode</button>
+
+<script>
+
+  let btn = document.getElementById("btn");
+
+  function btnClick(){
+    if(btn.textContent == "Dark Mode"){
+      document.body.style.backgroundColor = "#000";
+      document.body.style.color = "#fff";
+      btn.textContent = "Light Mode";
+    }
+    else{
+      document.body.style.backgroundColor = "#fff";
+      document.body.style.color = "#000";
+      btn.textContent = "Dark Mode";
+    }
+  }
+
+</script>
+</body>
+</html>
