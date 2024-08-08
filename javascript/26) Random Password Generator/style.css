@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #333;  
+  text-align: center;
+  color: #fff;
+  font-family: Arial,sans-serif;
+  margin: auto;
+  margin-top: 10%;
+}
+
+h1{
+  font-size: 4em;
+}
+
+table tr th{
+  text-align: left;
+  padding-right: 20px;
+}
+
+table{
+  margin: auto;
+  margin-top: 5%;
+}
+
+input{
+  width: 20px;
+  height: 20px;  
+}
+
+button{
+  margin-top: 5%;
+  background-color: hsl(240, 100%, 70%);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+button:hover{
+  background-color:hsl(240, 100%, 50%);
+}
+
+#output{
+  font-size: 1.5em;
+  margin-top: 2%;
+  font-style: italic;
+}
